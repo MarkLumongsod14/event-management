@@ -1,0 +1,17 @@
+# Local development and editor files
+.agent-cache/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Runtime event uploads; keep the directory itself in the project
+assets/uploads/events/*
+!assets/uploads/events/.gitkeep
+
+# Temporary files and logs
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
